@@ -1,0 +1,15 @@
+{
+  "name": "01-installing-webpack",
+  "version": "1.0.0",
+  "description": "In this exercize we create a new NPM project and then install Webpack as a development dependency.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
+}

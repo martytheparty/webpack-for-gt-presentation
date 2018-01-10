@@ -1,0 +1,17 @@
+{
+  "name": "03-running-webpack",
+  "version": "1.0.0",
+  "description": "In this exercise we create a new NPM project, install Webpack, and then install Webpack Dev Server as a development dependencies.  After the development dependencies are loaded we will set up an NPM script to run webpack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack index.js bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.1"
+  }
+}
