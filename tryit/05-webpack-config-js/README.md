@@ -1,0 +1,1 @@
+In this exercise we create a new NPM project, install Webpack, and then install Webpack Dev Server as a development dependencies.  After the development dependencies are loaded we will set up an NPM script to run webpack and webpack-dev-server.  Then we will add a file called webpack.config.js that webpack uses for configuration purposes.

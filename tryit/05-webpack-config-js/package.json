@@ -1,0 +1,17 @@
+{
+  "name": "05-webpack-config-js",
+  "version": "1.0.0",
+  "description": "In this exercise we create a new NPM project, install Webpack, and then install Webpack Dev Server as a development dependencies.  After the development dependencies are loaded we will set up an NPM script to run webpack and webpack-dev-server.  Then we will add a file called webpack.config.js that webpack uses for configuration purposes.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack",
+    "serve":"webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
+}

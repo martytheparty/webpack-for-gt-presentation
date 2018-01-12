@@ -16,7 +16,7 @@
 ## Third add the following scripts in package.json:
 
     "build":"webpack ./index.js bundle.js"
-    "serve":"webpack-dev-server"
+    "serve":"webpack-dev-server ./index.js bundle.js"
 
 *note: Build is the name of the script (it can be anything.)  index.js is the name of the file to be bundled.  bundle.js is the name that the bundle should be given.
 
