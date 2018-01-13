@@ -26,12 +26,14 @@
 
 ## Five create a index.html file that loads the bundle file
 
-## Sixth create a webpack.config.js file
+## Sixth create a simple index.js file
+
+## Seventh create a webpack.config.js file
 
 module.exports = { entry: './index.js', output: {filename: 'bundle.js'}}
 
-## Seventh fire up the webpack development Server
+## Eighth fire up the webpack development Server
 
     npm run serve
 
-## Eighth point your browser at http://localhost:8080
+## Ninth point your browser at http://localhost:8080
