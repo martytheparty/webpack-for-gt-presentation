@@ -18,21 +18,19 @@
     "build":"webpack"
     "serve":"webpack-dev-server"
 
-*note: Build is the name of the script (it can be anything.)  index.js is the name of the file to be bundled.  bundle.js is the name that the bundle should be given.
-
 ## Fourth create a index.html file that loads the dist/bundle.js script and originals.html that loads the original js files.
 
 ## Fifth create simple controller/ctrl-hello.js, model/mod-hello.js, and view-hello.js files
 
 ## Sixth create an entry.js files with the following:
 
-require('./controller/ctrl-hello.js');
-require('./model/mod-hello.js');
-require('./view/view-hello.js');
+    require('./controller/ctrl-hello.js');
+    require('./model/mod-hello.js');
+    require('./view/view-hello.js');
 
 ## Seventh create a webpack.config.js file
 
-module.exports = { entry: './entry.js', output: {filename: 'bundle.js'}}
+    module.exports = { entry: './entry.js', output: {filename: 'bundle.js'}}
 
 ## Eighth fire up the webpack development Server
 

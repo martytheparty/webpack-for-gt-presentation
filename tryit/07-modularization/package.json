@@ -1,0 +1,18 @@
+{
+  "name": "07-modularization",
+  "version": "1.0.0",
+  "description": "Module Exports is a convenient way to expose/share code between systems.  Browsers do not provide way to export modules.  Webpack allows developers to import/export modules at build time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack",
+    "serve":"webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.1"
+  }
+}
