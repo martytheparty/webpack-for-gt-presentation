@@ -1,0 +1,18 @@
+{
+  "name": "08-cache-busting",
+  "version": "1.0.0",
+  "description": "When Web Applications are delivered to browsers via HTTP the JavaScript files are transported across multiple (sometimes dozens) layers.  Every layer is a good opportunity for caching.  Caching is absolutely necessary for the Internet to operate.  Adding a hash code to the name of JavaScript files is a sure fire way to make sure changed files name breaks that cache at every layer.  An example of a hashed file name model.3ke3k3lek.js where 3ke3k3lek is a hash code calculated based on the contents of the file.  If the contents change the code changes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack",
+    "serve":"webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
+  }
+}
