@@ -1,4 +1,3 @@
-
 # bundling with webpack
 
 ## First create an NPM project with the following command line command:
