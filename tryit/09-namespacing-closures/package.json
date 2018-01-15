@@ -1,0 +1,18 @@
+{
+  "name": "09-namespacing-closures",
+  "version": "1.0.0",
+  "description": "Weback makes variables and functions unavailabe to the global scope (private) by default.  Basically, making a private variables can be tricky without bundling... and is something you don't have to think about with bundling.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack ./index.js bundle.js",
+    "serve":"webpack-dev-server ./index.js bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
+  }
+}
