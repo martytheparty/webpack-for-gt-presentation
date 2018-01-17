@@ -47,8 +47,8 @@ module.exports =
 import style from './index.css';
 require('./index.js');
 
-## Seventh fire up the webpack development Server
+## Eighth fire up the webpack development Server
 
     npm run serve
 
-## Seventh point your browser at http://localhost:8080
+## Ninth point your browser at http://localhost:8080
