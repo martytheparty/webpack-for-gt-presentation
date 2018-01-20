@@ -1,0 +1,21 @@
+{
+  "name": "13-code-splitting",
+  "version": "1.0.0",
+  "description": "Bundling is great... sometimes too great.  Sometimes applications get so big that they should be split into pieces.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "serve": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
