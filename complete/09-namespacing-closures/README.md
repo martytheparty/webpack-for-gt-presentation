@@ -1,0 +1,1 @@
+Weback makes variables and functions unavailabe to the global scope (private) by default.  Basically, making a private variables can be tricky without bundling... and is something you don't have to think about with bundling.

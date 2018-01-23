@@ -1,0 +1,1 @@
+A Web Application is made up of many types of resources.  Resources like css, html, less, pictures, json, xml, csv... Loaders can take resources like these and convert them into JavaScript.  Once they are converted into JavaScript they can be bundled.
