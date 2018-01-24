@@ -6,14 +6,14 @@ Webpack is an open-source JavaScript module bundler.
 The following issues are often faced by professional webdev developers.
 
 1. Not loading changed files because of caching
-2. Reloading unchanged/cached files
-3. Excessive connections
-4. Unused code loaded
+2. Reloading unchanged/cached files because of blind cache busting
+3. Excessive network connections
+4. Dead JavaScript code loaded
 5. Code is executed before supporting functionality/resources have been loaded
 6. Namespace collisions
 7. Third party code manipulating state/functionality
-8. Conflicting versions of code needed at the same time
-9. Newer versions of JS not being suported by browsers
+8. Conflicting versions of code needed in the same application
+9. Newer versions of JS not being supported by browsers
 10. Loose typing
 
 Many of these problems just disappear with Webpack bundled applications.  Some of these problem can be solved with Webpack.
