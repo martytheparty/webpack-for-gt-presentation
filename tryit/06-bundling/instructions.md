@@ -20,7 +20,7 @@
 
 ## Fourth create a index.html file that loads the dist/bundle.js script and originals.html that loads the original js files.
 
-## Fifth create simple controller/ctrl-hello.js, model/mod-hello.js, and view-hello.js files
+## Fifth create simple controller/ctrl-hello.js, model/mod-hello.js, and view/view-hello.js files
 
 ## Sixth create an entry.js files with the following:
 
