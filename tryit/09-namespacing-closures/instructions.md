@@ -29,10 +29,10 @@
 ## Fifth create a index.js file that declares another variable and function.
 
     var hola = "hola el mundo";
-    function sayHi() {
+    function sayHola() {
       alert(hola);
     }
-    sayHi();
+    sayHola();
 
 ## Sixth create an index.html file that loads the simple.js and bundle.js.
 
@@ -42,4 +42,4 @@
 
 ## Seventh point your browser at http://localhost:8080
 
-    Check the variables in the console.
+    Check the variables in the console.  Try running sayHi() from the console.  Try running sayHola() in the console.  Try altering sayHi() from the console.
