@@ -36,11 +36,11 @@ module.exports =
 
 ## Fifth create a index.js file that declares another variable and function.
 
-  document.write('<div>Hello</div>');
+  document.write('Hello');
 
 ## Sixth create an index.css file.
 
-  div { color:red }
+  body { color:red }
 
 ## Seventh create an entry.js file.
 
@@ -51,4 +51,8 @@ require('./index.js');
 
     npm run serve
 
-## Ninth point your browser at http://localhost:8080
+## Ninth fire up the webpack development Server
+
+        Create an index.html file that loads the bundle.js.
+
+## Tenth point your browser at http://localhost:8080
