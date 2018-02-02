@@ -45,6 +45,10 @@ require('./index.js');
 
     npm run build
 
+## Ninth Build
+
+    npm run serve
+
 * note: see that an index file with a link to the hashed bundle.
 
-## Seventh point your browser at http://localhost:8080
+## Tenth point your browser at http://localhost:8080
