@@ -19,8 +19,10 @@
 
 *note: Build is the name of the script (it can be anything.)  index.js is the name of the file to be bundled.  bundle.js is the name that the bundle should be given.
 
-## Fourth enter "npm run build"
+## Fourth create a index.js file with some simple JavaScript Code.
 
-## Five examine the bundle.js file
+## Fifth enter "npm run build"
+
+## Sixth examine the bundle.js file
 
 *note: There is a lot of strange code in bundle.js.  That is the code that implements module exports. *
