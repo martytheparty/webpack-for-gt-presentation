@@ -18,7 +18,7 @@
     "build":"webpack"
     "serve":"webpack-dev-server"
 
-## Fourth create simple JavaScript module export file called index.js
+## Fourth create simple JavaScript file called index.js
 
     alert('Hello World');
 
@@ -30,7 +30,7 @@
 
     npm run build
 
-## Seventh make a small change to the index file
+## Seventh make a small change to the javascript file
 
     alert('Hello World!');
 

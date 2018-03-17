@@ -27,7 +27,7 @@ module.exports =
 
 ## Fifth create a index.js file that imports.
 
-  jquery import from 'jquery';
+  var jquery = require('jquery');
   jquery('body').html("Hello World");
 
 ## Seventh create an entry.js file.
